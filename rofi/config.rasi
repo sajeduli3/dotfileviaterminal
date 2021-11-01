@@ -15,3 +15,4 @@ configuration{
     hide-scrollbar: true;
 	theme: "~/.config/rofi/simple.rasi";
 }
+@theme "/usr/share/rofi/themes/dmenu.rasi"
