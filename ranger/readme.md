@@ -1,0 +1,2 @@
+install a pkg name ueberzug
+sudo pacman -S ueberzug
