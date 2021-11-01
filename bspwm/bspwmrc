@@ -7,8 +7,11 @@ picom -f &
 # polybar
 
 ~/.config/polybar/launch.sh --shapes &
-~/.config/polybar/shapes/scripts/pywal.sh ~/Pictures/wallpaper &
-/usr/bin/ibus-daemon &
+
+wal -i ~/Pictures/wallpaper/
+cat ~/.cache/wal/sequences &  
+~/.config/polybar/shapes/scripts/pywal.sh ~/Pictures/wallpaper&
+/usr/bin/ibus-daemon -xim&
 xsetroot -cursor_name left_ptr &
 
 
